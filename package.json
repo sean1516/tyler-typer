@@ -13,17 +13,7 @@
     "start": "./server.py",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/anschwa/typing-test.git"
-  },
   "keywords": [
     "typing-test"
-  ],
-  "author": "Adam Schwartz",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/anschwa/typing-test/issues"
-  },
-  "homepage": "https://github.com/anschwa/typing-test#readme"
+  ]
 }
