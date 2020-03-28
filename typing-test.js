@@ -65,7 +65,7 @@ function addWords() {
 
   for (let i = 350; i > 0; i--) {
     let words = shuffle(wordList);
-    let wordSpan = `<span>${words[i]}</span>`;
+    let wordSpan = "<span>${words[i]}</span>";
     wordSection.innerHTML += wordSpan;
   }
   // mark first word as current-word
@@ -176,7 +176,7 @@ function isTimer(seconds) {
       } else {
         time -= 1;
         let timePad = time < 10 ? "0" + time : time; // zero padded
-        $("#timer > span")[0].innerHTML = `0:${timePad}`;
+        $("#timer > span")[0].innerHTML = "0:${timePad}";
       }
     }, 1000);
   } else if (one == "0:00") {
@@ -197,7 +197,7 @@ function calculateWPM(data) {
   }
 
   // template strings are pretty cool
-  let results = `<ul id="results">
+  let results = "<ul id="results">
         <li>WPM: <span class="wpm-value">${wpm}</span></li>
         <li>Accuracy: <span class="wpm-value">${accuracy}%</span></li>
         <li id="results-stats">
