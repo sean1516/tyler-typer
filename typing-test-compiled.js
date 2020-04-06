@@ -1,5 +1,5 @@
 // jQuery like selection of elements.???
-window.$ = document.querySelectorAll.bind(document); // Changes for  Firefox
+window.$ = document.querySelectorAll.bind(document); // Changes for  Firefox aadded all caps
 
 if (navigator.userAgent.match(/firefox/i)) {
   // Unicode font sizes
@@ -16,7 +16,7 @@ let wordList = [
   "OF",
   "VERY",
   "TO",
-  "SAD",
+  "THROUGH",
   "AND",
   "JUST",
   "A",
@@ -62,7 +62,7 @@ let wordList = [
   "THIS",
   "TELL",
   "FROM",
-  "HAPPY",
+  "SENTENCE",
   "OR",
   "SET",
   "HAD",
@@ -404,7 +404,7 @@ let wordList = [
   "LEAVE",
   "CLEAR",
   "SONG",
-  "TAIL"
+  "TAIL",
 ]; //////////////////////////////////////////
 // Knuth-Fisher-Yates Shuffle
 // http://bost.ocks.org/mike/shuffle/
@@ -454,7 +454,7 @@ let wordData = {
   correct: 0,
   incorrect: 0,
   total: 0,
-  typed: 0
+  typed: 0,
 }; //////////////////////////////////////////
 // Initial implementation notes:
 // next word on <space>, if empty, then set value=""

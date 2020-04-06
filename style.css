@@ -56,7 +56,7 @@ section {
 }
 #word-section > span {
   display: inline-block;
-  margin-left: 3.3em;
+  margin-left: 2.3em;
   /* emulate spaces between words */
 }
 
@@ -69,7 +69,7 @@ section {
   border-radius: 0.25em;
   border: none;
   color: #fff;
-  vertical-align: center;
+  vertical-align: middle;
 }
 
 #typebox {
