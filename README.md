@@ -1,1 +1,1 @@
-Creating a simple typing trainer for tylerll,l,l,
+Creating a simple typing trainer for tyler
